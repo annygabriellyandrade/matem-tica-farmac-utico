@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do header */
+header {
+    background: #0073e6;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo do main */
+main {
+    padding: 20px;
+}
+
+.features, .med-info, .stock-list {
+    margin-top: 20px;
+}
+
+h2, h3 {
+    color: #0073e6;
+}
+
+/* Estilo do form */
+form {
+    margin-top: 10px;
+}
+
+form label, form input, form button {
+    margin: 5px;
+}
+
+input[type="text"], button {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo do footer */
+footer {
+    background: #0073e6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

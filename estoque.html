@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Estoque - PharmaFast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PharmaFast</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="medicamentos.html">Medicamentos</a></li>
+                <li><a href="estoque.html">Gestão de Estoque</a></li>
+                <li><a href="formulas.html">Fórmulas Magistrais</a></li>
+                <li><a href="atualizacoes.html">Atualização Profissional</a></li>
+                <li><a href="contato.html">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Gestão de Estoque</h2>
+        <p>Gerencie o estoque de medicamentos e receba alertas de vencimento.</p>
+
+        <form>
+            <label for="add-item">Adicionar medicamento:</label>
+            <input type="text" id="add-item" name="add-item" placeholder="Nome do medicamento">
+            <button type="submit">Adicionar ao Estoque</button>
+        </form>
+
+        <section class="stock-list">
+            <h3>Estoque Atual</h3>
+            <ul>
+                <li>Medicamento A - Vence em: 01/2024</li>
+                <li>Medicamento B - Vence em: 05/2024</li>
+                <!-- Exemplo de itens no estoque -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PharmaFast - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
